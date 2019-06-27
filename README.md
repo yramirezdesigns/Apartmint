@@ -1,1 +1,1 @@
-# Apartmint
+# apartmint-bootstrap

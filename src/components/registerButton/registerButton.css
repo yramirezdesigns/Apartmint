@@ -1,0 +1,19 @@
+.registerButton {
+  background-color: #2cb3a1;
+}
+
+.tenantButton {
+  background-color: #8ae4d8;
+}
+
+.tenantButton:hover {
+  background-color: #2cb3a1;
+}
+
+.landLordButton {
+  background-color: #8ae4d8;
+}
+
+.landLordButton:hover {
+  background-color: #2cb3a1;
+}

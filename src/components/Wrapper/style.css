@@ -1,0 +1,12 @@
+.wrapper {
+  padding-top: 50px;
+  /* background-image: url("https://rentpath-res.cloudinary.com/w_1290,h_886,t_rp,cs_tinysrgb,fl_force_strip,c_fill/e_unsharp_mask:50,q_auto/c3230c07a98f1a07e8d1643c6c8874c3");
+  background-size: cover; */
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}

@@ -1,0 +1,18 @@
+.apartmentImage {
+  height: 180px;
+  width: 100%;
+}
+
+.contactLandlord {
+  background-color: #2cb3a1;
+  align-content: center;
+}
+
+.remove {
+  top: 0px;
+  right: -30px;
+}
+
+.rentTotal {
+  color: #2cb3a1;
+}

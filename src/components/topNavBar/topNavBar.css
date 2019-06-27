@@ -1,0 +1,10 @@
+.navBar {
+  height: 60px;
+  background-color: #ffffff42;
+}
+
+.browseLink {
+  padding: 20%;
+  color: #2cb3a1;
+  text-shadow: 0.5px 0.5px 0.5px #000;
+}
