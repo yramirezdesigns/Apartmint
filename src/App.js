@@ -1,15 +1,22 @@
 import React from "react";
-import largeLogo from "./ApartmintLogoSmall.png";
 import "./App.css";
-import topNavBar from "./components/topNavBar/topNavBar";
+import Wrapper from "./components/Wrapper/index";
+import MainPage from "./Mainindex";
 
 function App() {
   return (
-    <div className="App">
-      <topNavBar />
-      <header className="App-header">
-        <img src={largeLogo} className="App-logo" alt="logo" />
-      </header>
+    <div className="container">
+      <div>
+        <Container>
+          <Row>
+            <Wrapper>
+              <Col>
+                <MainPage />
+              </Col>
+            </Wrapper>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 }

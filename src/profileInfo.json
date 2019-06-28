@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "fName": "John",
+    "lName": "Dow",
+    "email": "email@gmail.com",
+    "Num": "7181234567",
+    "employer": "Chase",
+    "jobNum": "2121234567",
+    "contact": "Nancy",
+    "title": "Manager",
+    "income": 65000
+  }
+]

@@ -1,11 +1,24 @@
 import React from "react";
-import Form from "./components/landlordForm/index";
-import topNavBar from "./components/topNavBar/topNavBar";
+import Landlord from "./components/landlordForm/index";
 
-function App() {
-  return;
-  <topNavBar />;
-  <Form />;
+function LandlordForm() {
+  return (
+    <div className="container">
+      <div>
+        <br />
+        <br />
+        <Container>
+          <Row>
+            <Wrapper>
+              <Col>
+                <Landlord />
+              </Col>
+            </Wrapper>
+          </Row>
+        </Container>
+      </div>
+    </div>
+  );
 }
 
-export default App;
+export default LandlordForm;

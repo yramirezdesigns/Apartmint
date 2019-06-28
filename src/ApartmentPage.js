@@ -4,8 +4,6 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import apartments from "./apartment.json";
 import "./ApartmentPage.css";
-import topNavBar from "./components/topNavBar/topNavBar";
-
 
 class App extends Component {
   state = {
@@ -21,7 +19,6 @@ class App extends Component {
 
   render() {
     return (
-      <topNavBar />
       <Wrapper>
         <Title>Apartment Listing</Title>
         {this.state.apartments.map(apartment => (
