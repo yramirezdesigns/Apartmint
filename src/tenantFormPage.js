@@ -1,5 +1,7 @@
 import React from "react";
 import Tenant from "./components/tenantForm/index";
+import { Container, Row, Col } from "react-bootstrap";
+import Wrapper from "./components/Wrapper";
 
 function TenantForm() {
   return (

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ApartmentCard from "./components/ApartmentCard";
+import ApartmentCard from "./components/ApartmentCard/ApartmentCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import apartments from "./apartment.json";
