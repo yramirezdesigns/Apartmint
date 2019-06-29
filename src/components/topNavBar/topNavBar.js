@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../ApartmintLogoSmall.png";
+//import Logo from "../../ApartmintLogoSmall.png";
 import "./topNavBar.css";
 import { Nav } from "react-bootstrap";
 import Login from "../login/login";
@@ -11,7 +11,7 @@ function topNavBar() {
       <span className="navContent">
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item className="navLogo">
-            <Logo />
+           
           </Nav.Item>
           <Nav.Item>
             <Nav.Link href="/home" className="browseLink">
